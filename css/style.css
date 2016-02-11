@@ -1,0 +1,95 @@
+body
+{
+	font-family: 'pt_sans_narrowbold';
+}
+
+.mainHead h1
+{
+	font-family: 'pt_sans_narrowbold';
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.welcomeCard h2
+{
+	font-family: 'pt_sans_captionbold';
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.homeText
+{
+	font-family: 'aaarghnormal';
+}
+
+.text1
+{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.text2
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#comingsoon
+{
+	font-family: 'pt_sans_captionbold';
+	letter-spacing: 2px;
+	font-size: 0.875em;
+	text-transform: uppercase;
+}
+
+.genreList
+{
+	text-align: center;
+	font-family: 'aaarghnormal';
+}
+
+.albumlist h2
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.albumlist h4
+{
+	float: right;
+	padding-right: 50px;
+	margin-right: 38px;
+}
+
+.albumlist img
+{
+	float: left;
+}
+
+.albumlist a
+{
+	float: right;
+	margin-right: 77px;
+	margin-top: 5px;
+	text-decoration: none;
+	background: #886aea;
+	text-align: center;
+	color: #000;
+	border-radius: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.topList
+{
+	text-align: center;
+	font-family: 'aaarghnormal';
+}
+
+
+
+
+
+

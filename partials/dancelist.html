@@ -1,0 +1,32 @@
+<ion-header-bar class="bar-dark mainHead">
+	<h1 class="title">Music App</h1>
+		<button class="button button-dark icon-left ion-home" ng-click="goBack()">Back</button>
+</ion-header-bar>
+
+<ion-content>
+<ion-list>
+<ion-item data-ng-repeat="album in albums" class="albumlist">
+	<h2>{{album.name}}</h2>
+	<img src="{{album.image['1']['#text']}}">
+	<h4>{{album.artist.name}}</h4>
+	<a href="#/dancedetail/{{$index}}">Show More</a>
+</ion-item>
+</ion-list>
+</div>
+</ion-content>
+
+<ion-footer-bar>
+<ion-tabs class="tabs-dark tabs-icon-top">
+
+ <ion-tab title="Home" href="#/home" icon-on="ion-ios-home" icon-off="ion-ios-home-outline">
+
+ </ion-tab>
+
+  <ion-tab title="Genre" href="#/genre" icon-on="ion-ios-list" icon-off="ion-ios-list-outline">
+  </ion-tab>
+
+  <ion-tab title="Top Hits" href="#/tophits" icon-on="ion-ios-star" icon-off="ion-ios-star-outline">
+  </ion-tab>
+
+</ion-tabs>
+</ion-footer-bar>
